@@ -1,0 +1,28 @@
+{
+  "name": "hello-sqlite",
+  "version": "0.0.1",
+  "description": "A simple webpack clone",
+  "main": "server.js",
+  "scripts": {
+    "start": "node index.js | node ./node_modules/js-beautify/js/bin/js-beautify.js"
+  },
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "babel-traverse": "^6.26.0",
+    "babylon": "^6.18.0",
+    "js-beautify": "^1.13.0"
+  },
+  "engines": {
+    "node": "12.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/hello-sqlite"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
